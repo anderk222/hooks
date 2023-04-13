@@ -1,4 +1,4 @@
-port { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export function useFetch<T>(callback?: CallBack): UseFetch<T> {
 
