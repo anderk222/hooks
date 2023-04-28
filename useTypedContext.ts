@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import React,{ useContext } from 'react';
 
 export function useTypedContext<T>(context : React.Context<T>) {
 
